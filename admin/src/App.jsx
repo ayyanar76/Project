@@ -1,5 +1,5 @@
 import React from 'react'
-import AddProduct from './Page/addProduct'
+import AddProduct from './Page/AddProduct.jsx'
 
 const App = () => {
   return (
