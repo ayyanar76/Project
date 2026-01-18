@@ -9,7 +9,7 @@ import userRouter from './Routes/userRouter.js'
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin:["http://localhost:5173","http://localhost:5174"],
+    origin:["https://project-1-6bc5.onrender.com","https://admin-wbzi.onrender.com"],
     credentials:true
 }))
 app.use(cookieParser())
